@@ -1,14 +1,14 @@
 class Picture
   def initialize()
-    @pictures = File.read('./pictures.txt').split(',')
+    # store the pictures
   end
   
   def winning
-    return @pictures[6]
+    #get the winning picture
   end
 
   def image num
-    return @pictures[num]
+    # display a picture based on game status
   end
   
 end
