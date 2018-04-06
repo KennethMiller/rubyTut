@@ -15,5 +15,6 @@ loop do
   # stay in this loop until the user wants to stop playing
   hangman.start
   ans = prompt
-  break unless ans
+         
+  break unless ans 
 end
